@@ -1,0 +1,33 @@
+@import "../../../../constants/colors.scss";
+
+.Element {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  .flag .imageContainer {
+    background-size: contain;
+    padding-top: 73%;
+    background-repeat: no-repeat;
+  }
+  .countryDetails {
+    margin: 20px 20px 35px 20px;
+
+    .countryName {
+      margin: 15px 0;
+      font-weight: bold;
+    }
+    p {
+      span {
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+.light .Element {
+  background-color: $White;
+}
+
+.dark .Element {
+  background-color: $DarkBlueDarkModeElements;
+}

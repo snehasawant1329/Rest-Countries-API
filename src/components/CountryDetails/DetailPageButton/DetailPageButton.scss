@@ -1,0 +1,19 @@
+@import "../../../constants/colors.scss";
+
+.DetailPageButton {
+  padding: 5px 20px;
+  margin: 10px;
+  margin-left: 0;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.dark .DetailPageButton {
+  background-color: $DarkBlueDarkModeElements;
+  box-shadow: 0 0 5px $VeryDarkBlueLightModeText;
+}
+
+.light .DetailPageButton {
+  background-color: $White;
+  box-shadow: 0px 0px 6px -3px $DarkGrayLightModeInput;
+}

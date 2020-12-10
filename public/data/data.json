@@ -1,0 +1,60 @@
+{
+  "countries": [
+    {
+      "name": "Germany",
+      "population": "81.770.900",
+      "region": "Europe",
+      "capital": "Berlin",
+      "flag": "de"
+    },
+    {
+      "name": "United States of America",
+      "population": "323.947.000",
+      "region": "Americas",
+      "capital": "Washington D.C",
+      "flag": "us"
+    },
+    {
+      "name": "Brazil",
+      "population": "206.135.893",
+      "region": "Americas",
+      "capital": "Braizl",
+      "flag": "br"
+    },
+    {
+      "name": "Iceland",
+      "population": "334.300",
+      "region": "Europe",
+      "capital": "Reykjavik",
+      "flag": "is"
+    },
+    {
+      "name": "Afghanistan",
+      "population": "27.657.145",
+      "region": "Asia",
+      "capital": "Kabul",
+      "flag": "af"
+    },
+    {
+      "name": "Aland Islands",
+      "population": "28.875",
+      "region": "Europe",
+      "capital": "Meriehamn",
+      "flag": "ax"
+    },
+    {
+      "name": "Albania",
+      "population": "2.886.026",
+      "region": "Europe",
+      "capital": "Tirana",
+      "flag": "al"
+    },
+    {
+      "name": "Algeria",
+      "population": "40.400.000",
+      "region": "Africa",
+      "capital": "Algiers",
+      "flag": "dz"
+    }
+  ]
+}

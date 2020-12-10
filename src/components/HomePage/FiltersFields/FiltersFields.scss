@@ -1,0 +1,17 @@
+@import "../../../constants/colors.scss";
+
+.FiltersFields {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 630px) {
+  .FiltersFields {
+    display: block;
+    .FilterContainer {
+      width: 65%;
+    }
+  }
+}

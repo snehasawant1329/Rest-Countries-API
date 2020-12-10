@@ -1,0 +1,29 @@
+@import "./constants/colors.scss";
+
+.App {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.light {
+  background-color: $VeryLightGrayLightModeBackground;
+  color: $VeryDarkBlueLightModeText;
+  a {
+    color: $VeryDarkBlueLightModeText;
+  }
+}
+
+.dark {
+  background-color: $VeryDarkBlueDarkModeBackground;
+  color: $White;
+  a {
+    color: $White;
+  }
+}
+
+p {
+  line-height: 1.7;
+}

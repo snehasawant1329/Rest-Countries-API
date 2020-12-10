@@ -1,0 +1,16 @@
+.Elements {
+  display: grid;
+  grid-gap: 50px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+@media only screen and (max-width: 450px) {
+  .Elements {
+    padding: 0 30px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .Elements {
+    padding: 0;
+  }
+}

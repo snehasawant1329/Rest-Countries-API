@@ -1,0 +1,11 @@
+@import "../../constants/colors.scss";
+
+.dark .Shadow {
+  background-color: $DarkBlueDarkModeElements;
+  box-shadow: 0 0 10px -5px $VeryDarkBlueLightModeText;
+}
+
+.light .Shadow {
+  background-color: $White;
+  box-shadow: 0px 0px 6px -3px $DarkGrayLightModeInput;
+}

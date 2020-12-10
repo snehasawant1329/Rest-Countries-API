@@ -1,0 +1,41 @@
+@import "../../constants/colors.scss";
+
+.Navigation {
+  display: flex;
+  justify-content: center;
+  .NavigationItems {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1440px;
+    padding: 20px 50px;
+  }
+}
+
+.Navigation-left {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.mode-container {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  .moonIcon {
+    margin: 0 8px;
+  }
+}
+
+.mode-text {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 450px) {
+  .Navigation {
+    .NavigationItems {
+      padding: 30px 20px;
+    }
+  }
+}
